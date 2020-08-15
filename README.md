@@ -4,7 +4,9 @@ Repository for doing POCs
 
 ## StyleGuide
 
-[JS Style Guide](https://github.com/airbnb/javascript)
+Follow [JS Style Guide](https://github.com/airbnb/javascript) while development.
+
+## Concept
 
 Microservices based end to end items delivery application.
 
