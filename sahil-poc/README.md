@@ -5,6 +5,7 @@
 Follow following steps to connect to the mongo DB:
 
 - Copy `.env` file under db folder in your service's db folder.
+- Update the <password> and <db_name> in that file.
 - Use `mongoose` to make the connection to the DB:
 
 ```js
