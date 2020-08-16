@@ -33,3 +33,19 @@ Other services perform the following operations.
 <p align=center> Architectural diagram is shown below. <p>
   
 ![architecture](./docs/img/architecture.png)
+
+## Repos cloning and pulling
+
+To clone all repos, download `clone_RDBMSS_repo.sh` in the directory where you want to clone all repos. Then run following command in the terminal to execute the file.
+
+```sh
+bash clone_RDBMSS_repo.sh
+```
+
+And during your development, if you wish to pull latest changes from all the repos, then download `pull_RDBMSS_repo.sh` in the directory where all repos are there. Then run following command in the terminal to execute the file.
+
+```sh
+bash pull_RDBMSS_repo.sh
+```
+
+> **Note**: In case you have created any local branch in any repo, then make sure to set an upstream branch for it to get the pull.
