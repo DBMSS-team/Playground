@@ -1,0 +1,12 @@
+git clone https://github.com/DBMSS-team/playground.git
+git clone https://github.com/DBMSS-team/users.git
+git clone https://github.com/DBMSS-team/support.git
+git clone https://github.com/DBMSS-team/location.git
+git clone https://github.com/DBMSS-team/store.git
+git clone https://github.com/DBMSS-team/wallet.git
+git clone https://github.com/DBMSS-team/payments.git
+git clone https://github.com/DBMSS-team/orders.git
+git clone https://github.com/DBMSS-team/cart.git
+git clone https://github.com/DBMSS-team/products.git
+git clone https://github.com/DBMSS-team/login.git
+git clone https://github.com/DBMSS-team/support-chat.git
