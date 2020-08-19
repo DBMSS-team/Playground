@@ -49,3 +49,16 @@ bash pull_RDBMSS_repo.sh
 ```
 
 > **Note**: In case you have created any local branch in any repo, then make sure to set an upstream branch for it to get the pull.
+
+## Ports for services
+
+cart : 5000
+location : 5001
+login : 5002
+orders : 5003
+payments : 5004
+products : 5005
+store : 5006
+support : 5007
+users : 5008
+wallet : 5009
