@@ -1,8 +1,10 @@
 ## Make sure you are in parent directory (containing all this repos)
 ## And you have already set-upstream branches for your local branch in all of these repos
 
-cd playground && git add . && git commit -m "files updated" && git push && cd ..
-cd users && git add . && git commit -m "files updated" && git push && cd ..
+cd playground && git add . && git commit -m "files updated" && git push
+cd .. 
+cd users && git add . && git commit -m "files updated" && git push
+cd ..
 cd support && git add . && git commit -m "files updated" && git push && cd ..
 cd location && git add . && git commit -m "files updated" && git push && cd ..
 cd store && git add . && git commit -m "files updated" && git push && cd ..
