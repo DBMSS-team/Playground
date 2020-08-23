@@ -5,12 +5,21 @@ cd playground && git add . && git commit -m "files updated" && git push
 cd .. 
 cd users && git add . && git commit -m "files updated" && git push
 cd ..
-cd support && git add . && git commit -m "files updated" && git push && cd ..
-cd location && git add . && git commit -m "files updated" && git push && cd ..
-cd store && git add . && git commit -m "files updated" && git push && cd ..
-cd wallet && git add . && git commit -m "files updated" && git push && cd ..
-cd payments && git add . && git commit -m "files updated" && git push && cd ..
-cd orders && git add . && git commit -m "files updated" && git push && cd ..
-cd cart && git add . && git commit -m "files updated" && git push && cd ..
-cd products && git add . && git commit -m "files updated" && git push && cd ..
-cd ui && git add . && git commit -m "files updated" && git push && cd..
+cd support && git add . && git commit -m "files updated" && git push
+cd ..
+cd location && git add . && git commit -m "files updated" && git push 
+cd ..
+cd store && git add . && git commit -m "files updated" && git push 
+cd ..
+cd wallet && git add . && git commit -m "files updated" && git push
+cd ..
+cd payments && git add . && git commit -m "files updated" && git push 
+cd ..
+cd orders && git add . && git commit -m "files updated" && git push 
+cd ..
+cd cart && git add . && git commit -m "files updated" && git push 
+cd ..
+cd products && git add . && git commit -m "files updated" && git push 
+cd ..
+cd ui && git add . && git commit -m "files updated" && git push
+cd ..
