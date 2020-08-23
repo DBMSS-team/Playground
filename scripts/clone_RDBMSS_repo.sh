@@ -8,4 +8,4 @@ git clone https://github.com/DBMSS-team/payments.git
 git clone https://github.com/DBMSS-team/orders.git
 git clone https://github.com/DBMSS-team/cart.git
 git clone https://github.com/DBMSS-team/products.git
-git clone https://github.com/DBMSS-team/login.git
+git clone https://github.com/DBMSS-team/ui.git

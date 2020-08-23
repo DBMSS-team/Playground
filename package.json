@@ -1,0 +1,26 @@
+{
+	"name": "playground",
+	"version": "1.0.0",
+	"description": "Repository for doing POCs",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DBMSS-team/playground.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DBMSS-team/playground/issues"
+	},
+	"homepage": "https://github.com/DBMSS-team/playground#readme",
+	"dependencies": {
+		"wallet": "git+https://github.com/DBMSS-team/wallet.git"
+	}
+}

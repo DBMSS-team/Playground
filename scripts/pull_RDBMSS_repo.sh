@@ -11,4 +11,4 @@ cd payments && git pull && cd ..
 cd orders && git pull && cd ..
 cd cart && git pull && cd ..
 cd products && git pull && cd ..
-cd login && git pull && cd ..
+cd ui && git pull && cd ..
