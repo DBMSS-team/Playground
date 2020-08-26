@@ -1,11 +1,12 @@
-git clone https://github.com/DBMSS-team/playground.git
-git clone https://github.com/DBMSS-team/users.git
-git clone https://github.com/DBMSS-team/support.git
-git clone https://github.com/DBMSS-team/location.git
-git clone https://github.com/DBMSS-team/store.git
-git clone https://github.com/DBMSS-team/wallet.git
-git clone https://github.com/DBMSS-team/payments.git
-git clone https://github.com/DBMSS-team/orders.git
-git clone https://github.com/DBMSS-team/cart.git
-git clone https://github.com/DBMSS-team/products.git
-git clone https://github.com/DBMSS-team/ui.git
+git clone https://github.com/DBMSS-team/playground.git --recursive
+git clone https://github.com/DBMSS-team/users.git --recursive
+git clone https://github.com/DBMSS-team/support.git --recursive
+git clone https://github.com/DBMSS-team/location.git --recursive
+git clone https://github.com/DBMSS-team/store.git --recursive
+git clone https://github.com/DBMSS-team/wallet.git --recursive
+git clone https://github.com/DBMSS-team/payments.git --recursive
+git clone https://github.com/DBMSS-team/orders.git --recursive
+git clone https://github.com/DBMSS-team/cart.git --recursive
+git clone https://github.com/DBMSS-team/products.git --recursive
+git clone https://github.com/DBMSS-team/ui.git --recursive
+git clone https://github.com/DBMSS-team/commons.git --recursive

@@ -11,3 +11,4 @@ cd orders && npm install && cd ../..
 cd cart && npm install && cd ../..
 cd products && npm install && cd ../..
 cd ui && npm install && cd ..
+cd commons && npm install && cd ..
