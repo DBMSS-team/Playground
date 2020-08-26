@@ -1,0 +1,23 @@
+{
+	"name": "redis-cache",
+	"version": "1.0.0",
+	"description": "Redis Cache Implementation",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"redis",
+		"redis-cache"
+	],
+	"author": "Sahil",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"redis": "^3.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
