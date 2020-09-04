@@ -23,5 +23,3 @@ cd products && git add . && git commit -m "files updated" && git push
 cd ..
 cd ui && git add . && git commit -m "files updated" && git push
 cd ..
-cd commons && git add . && git commit -m "files updated" && git push
-cd ..
