@@ -24,7 +24,6 @@ entity Payments {
 }
 entity Products {
     _id
-    store_id
 }
 entity Store {
     _id
@@ -54,9 +53,9 @@ Users ||--o{ Orders
 Orders ||-right-|{ Products
 Orders ||-left-|{ Payments
 WalletHistory }o-right-|| Wallet
-WalletHistory ||--|| Payments
+WalletHistory |o--|| Payments
 Cart ||--o{ Products
-Cart ||-right-|| Store
+Cart ||-right-o| Store
 Store ||--|| Location
 Store ||--o{ Products
 
