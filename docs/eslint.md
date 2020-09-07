@@ -175,7 +175,9 @@ In Visual Studio Code, eslint is enabled by default so any issues will be highli
 To fix automatically all fixable issues on save, enable this configuration:
 
 ```diff
-+ "eslint.autoFixOnSave": true
++ "editor.codeActionsOnSave": {
+	"source.fixAll.eslint": true
+	}
 ```
 
 ___
@@ -201,15 +203,15 @@ However, we are sometimes too busy to fix it or we just miss it. In order to for
     ...
     “scripts”: {
       ...
-  +     “pretest”: “./node_modules/.bin/eslint --ignore-path .gitignore . --fix”
+  +     "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
       ...
       },
 
     ...
 
-  +   “husky”: {
-  +     “hooks”: {
-  +       “pre-commit”: “npm run pretest”
+  +   "husky": {
+  +     "hooks": {
+  +       "pre-commit": "npm run pretest"
   +     }
   +   }
   }
