@@ -4,6 +4,7 @@
   - [RabbitMQ use cases](#rabbitmq-use-cases)
   - [Hystrix](#hystrix)
   - [Logging UI](#logging-ui)
+  - [Tasks](#tasks)
 
 ## RabbitMQ use cases
 
@@ -20,3 +21,7 @@
 ## Hystrix
 
 ## Logging UI
+
+## Tasks
+
+- Make categoryName as arrays in Store db schema
