@@ -1,0 +1,117 @@
+### Get all users
+@userHost = http://localhost:5008
+@productHost = http://localhost:5005
+@storeHost = http://localhost:5006
+
+
+GET {{userHost}}/users/ HTTP/1.1
+
+### Create new user
+
+POST {{userHost}}/users/ HTTP/1.1
+content-type: application/json
+
+{
+   "username": "Test",
+   "password": "Test",
+   "email": "test@gmail.com"
+}
+
+### Update new user
+
+PUT {{userHost}}/users/5f4150ec201488391235c82b HTTP/1.1
+content-type: application/json
+
+{
+   "role": "ADMIN"
+}
+
+### User Login
+
+POST {{userHost}}/auth/login HTTP/1.1
+content-type: application/json
+
+{
+   "username": "Sahil",
+   "password": "Sahil"
+}
+
+### User Logout
+
+POST {{userHost}}/auth/logout HTTP/1.1
+content-type: application/json
+
+{
+   "id": "5f4150ec201488391235c82b"
+}
+
+### Get products
+
+GET {{productHost}}/product HTTP/1.1
+
+### Create Products
+
+POST {{productHost}}/product HTTP/1.1
+Content-Type: application/json
+
+{
+      "name": "Crispy Corn",
+      "subCategoryName": "Starters",
+      "categoryName": "Food Delivery"
+}
+
+### Create product items batch
+POST {{productHost}}/product/batch HTTP/1.1
+Content-Type: application/json
+
+[
+
+]
+
+### Get all store items
+
+GET {{storeHost}}/store HTTP/1.1
+
+### Get a specific store item
+@id = 5f674acd3431bdf7f382b70b
+GET {{storeHost}}/store/{{id}} HTTP/1.1
+
+### Create store items
+
+POST {{storeHost}}/store HTTP/1.1
+Content-Type: application/json
+
+{
+   "name": "D-Mart",
+   "address": {
+      "line1": "204 MB",
+      "line2": "",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pinCode": "560048"
+   },
+   "categoryName": "Groceries  and Essentials",
+   "locationId": "5f5a64745d40185b60174c59"
+}
+
+### Create store items batch mode
+
+POST {{storeHost}}/store/batch HTTP/1.1
+Content-Type: application/json
+
+[
+   
+]
+
+### Update store items batch mode
+PUT {{storeHost}}/store/batch HTTP/1.1
+Content-Type: application/json
+
+[
+
+]
+
+### Get Store categories
+
+GET {{storeHost}}/store/categories HTTP/1.1

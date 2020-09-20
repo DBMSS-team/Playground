@@ -23,5 +23,3 @@ cd products && git pull
 cd ..
 cd ui && git pull
 cd ..
-cd commons && git pull
-cd ..
